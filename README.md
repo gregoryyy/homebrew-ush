@@ -4,7 +4,9 @@ The Homebrew tap for [ush](https://github.com/gregoryyy/ushell), the `//` shell 
 plain language, and ush proposes the shell command that answers it, on your command line.
 
 ```sh
-brew install gregoryyy/ush/ush
+brew tap gregoryyy/ush
+brew trust gregoryyy/ush      # Homebrew loads formulas from third-party taps only once trusted
+brew install ush
 ```
 
 The formula builds `ush` from the tagged source of a release with Go; it has no other
