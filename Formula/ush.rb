@@ -1,9 +1,9 @@
 class Ush < Formula
   desc "Shell assistant for zsh: ask in plain language, get the commands"
   homepage "https://github.com/gregoryyy/ushell"
-  url "https://github.com/gregoryyy/ushell/archive/refs/tags/v0.2.4.tar.gz"
-  version "0.2.4"
-  sha256 "42bd171347b1de793808836bf9c9a2705736bbfda6cc68243a08d340e906a995"
+  url "https://github.com/gregoryyy/ushell/archive/refs/tags/v0.3.0-rc1.tar.gz"
+  version "0.3.0-rc1"
+  sha256 "deb96553da2a0161b698af0c153404a0a956e2987a72d5e1a8236767eb643fb5"
   license "MIT"
 
   depends_on "go" => :build
